@@ -1,0 +1,64 @@
+Scenarios
+
+User Changes Interface:
+The user may use our application and decide to change the interface. 
+One scenario of this is that the user changes the colors of different
+objects within the application to make it easier for the user to see
+and differentiate between objects.
+
+Play Tic Tac Toe:
+The user may use our application to play a game of Tic Tac Toe.
+The user has multiple ways to play the game. They can attempt to get
+a new high score, by trying to beat a friend or opponent.
+
+Play RPG Maze Game:
+The user of our application may want to use the application to play 
+a RPG Maze game. They can play the game thoroughly to try and beat
+their previous scores of the game. 
+
+Play Connect Four:
+The user of our application may want to use the application to play
+a game of connect four. They can play to win against a computer. 
+They can also play to win against a local friend or opponent. They 
+can play the game in multiple different ways to their liking.
+
+View Scoreboard/Leaderboard:
+Users are able to access our application and are able to see 
+scoreboards and leaderboards for the three games that are included 
+within our application. They can analyze these scores and attempt 
+to access these games in an attempt to place themselves on these 
+different scoreboards/leaderboards. 
+
+View Help Features:
+Users may use the application and have confusion on how to use the 
+application. If this is the case, the user may want to view different
+help features within the application to help guide them through the 
+application. The user can use these set of help features to then
+participate in other scenarios such as the playing of any of the 
+base three games. 
+
+Changing of Difficulty:
+The user may want to change the difficulty on select games. In select
+games such as Tic Tac Toe, and Connect Four, the user has the option 
+to change the difficulty within these games if they are playing against
+the computer. If this is the case, then the user has the capability to
+play these select games on harder or easier difficulties to improve
+their experience within the application.
+
+Changing of Games:
+The user has the capability to change games. This option allows the 
+user to switch between the games that are within the application. 
+This scenario allows the user to have more options and allows them 
+to dictate which game they want to play and when they want to play it. 
+
+Exiting the Application/Games:
+The user may go through our application and decide that they no longer
+want to play any more of the games that are offered and decide that
+they want to close the application or games. The user may do this for
+a variety of reasons, however that capability is offered.
+
+Addition of Games:
+The user may not like the original games offered and may want to use our
+application as a game launcher to launch different games. This allows
+the user to use this feature to add games so that their games can be 
+launched from the same launcher.
