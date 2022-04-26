@@ -133,7 +133,7 @@ namespace MultiGameApplication {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MultiGameApplication;component/tictactoegame.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MultiGameApplication;V1.0.0.0;component/tictactoegame.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TicTacToeGame.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
