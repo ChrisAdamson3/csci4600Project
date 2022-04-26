@@ -1,0 +1,22 @@
+﻿<Window x:Class="MultiGameApplication.TicTacToeHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiGameApplication"
+        mc:Ignorable="d"
+        Title="TicTacToeHelp" Height="450" Width="800">
+    <Grid>
+        <Image Margin="92,139,525,131" Source="Assets/verticalXwin.png"/>
+        <Image Margin="232,139,385,131" Source="/Assets/horizontalXwin.png"/>
+        <Image Margin="378,139,239,131" Source="/Assets/diagOwin.png"/>
+        <Image Margin="528,139,89,131" Source="/Assets/diagXwin.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="123,30,0,0" TextWrapping="Wrap" Text="TicTacToe is a game where the objective is to string together three &quot;X&quot; or three &quot;O&quot; in a row. You can win in three ways, which is to match up the three &quot;X&quot; or &quot;O&quot; vertically, horizontally, or diagonally. To play, you must click in the unopen space within the game board to place an &quot;X&quot; or &quot;O&quot;. " VerticalAlignment="Top" Height="90" Width="564" FontFamily="Arial" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="123,308,0,0" TextWrapping="Wrap" Text="Vertical Win" VerticalAlignment="Top" Width="121" FontSize="16" FontFamily="Arial"/>
+        <TextBlock HorizontalAlignment="Left" Margin="261,310,0,0" TextWrapping="Wrap" Text="Horizontal Win" VerticalAlignment="Top" Width="121" FontSize="16" FontFamily="Arial"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,310,0,0" TextWrapping="Wrap" Text="Diagonal Win" VerticalAlignment="Top" Width="121" FontSize="16" FontFamily="Arial"/>
+        <TextBlock HorizontalAlignment="Left" Margin="552,310,0,0" TextWrapping="Wrap" Text="Diagonal Win" VerticalAlignment="Top" Width="121" FontSize="16" FontFamily="Arial"/>
+
+
+    </Grid>
+</Window>

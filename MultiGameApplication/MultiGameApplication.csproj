@@ -7,4 +7,24 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\diagOwin.png" />
+    <None Remove="Assets\diagXwin.png" />
+    <None Remove="Assets\Grid.png" />
+    <None Remove="Assets\horizontalXwin.png" />
+    <None Remove="Assets\O15.png" />
+    <None Remove="Assets\verticalXwin.png" />
+    <None Remove="Assets\X15.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\diagOwin.png" />
+    <Resource Include="Assets\diagXwin.png" />
+    <Resource Include="Assets\Grid.png" />
+    <Resource Include="Assets\horizontalXwin.png" />
+    <Resource Include="Assets\O15.png" />
+    <Resource Include="Assets\verticalXwin.png" />
+    <Resource Include="Assets\X15.png" />
+  </ItemGroup>
+
 </Project>

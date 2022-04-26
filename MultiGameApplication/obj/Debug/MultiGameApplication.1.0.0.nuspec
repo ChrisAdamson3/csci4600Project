@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MultiGameApplication</id>
+    <version>1.0.0</version>
+    <authors>MultiGameApplication</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\PersonalRepos\CSCI4600Project\MultiGameApplication\bin\Debug\net6.0-windows\MultiGameApplication.runtimeconfig.json" target="lib\net6.0-windows7.0\MultiGameApplication.runtimeconfig.json" />
+    <file src="D:\PersonalRepos\CSCI4600Project\MultiGameApplication\bin\Debug\net6.0-windows\MultiGameApplication.dll" target="lib\net6.0-windows7.0\MultiGameApplication.dll" />
+  </files>
+</package>

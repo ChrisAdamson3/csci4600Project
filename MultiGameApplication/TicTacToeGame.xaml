@@ -1,0 +1,96 @@
+﻿<Window x:Class="MultiGameApplication.TicTacToeGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiGameApplication"
+        mc:Ignorable="d"
+        Background="Yellow"
+        Title="Tic-Tac-Toe" Height="450" Width="800">
+    <Viewbox>
+
+        <Grid>
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel x:Name="TurnPanel"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+
+                <TextBlock FontSize="54"
+                       Margin="0,0,0,15"
+                           Text="Player: "/>
+                <Image x:Name="PlayerImage"
+                       Source="Assets/X15.png"
+                       Height="75"/>
+            </StackPanel>
+
+            <Button x:Name="helpButton" Content="Help"
+                        Background="Yellow"
+                        FontSize="22"
+                        Margin="-219,278,403,25"
+                        Padding="0,0,0,5"
+                        BorderBrush="Black"
+                        Click="HelpClick" FontFamily="Arial" Grid.Row="1"/>
+            <Button x:Name="backButton" Content="Back"
+                        Background="Yellow"
+                        FontSize="22"
+                        Margin="397,273,-213,30"
+                        Padding="0,0,0,5"
+                        BorderBrush="Black"
+                        Click="BackClick" FontFamily="Arial" Grid.Row="1"/>
+            <Canvas x:Name="GameCanvas"
+                Grid.Row="1"
+                Width="300"
+                Height="300"
+                Margin="25">
+
+                <UniformGrid x:Name="GameGrid"
+                         Width="300"
+                         Height="300"
+                         Rows="3"
+                         Columns="3"
+                         MouseDown="GameGrid_MouseDown">
+                    <UniformGrid.Background>
+                        <ImageBrush ImageSource="Assets/Grid.png"></ImageBrush>
+                    </UniformGrid.Background>
+                </UniformGrid>
+            </Canvas>
+
+            <Grid x:Name="EndScreen"
+              Grid.RowSpan="2"
+              Background="Yellow"
+              Visibility="Hidden">
+                <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center">
+                    <StackPanel x:Name="Horizontal"
+                            HorizontalAlignment="center">
+                        <TextBlock x:Name="ResultText"
+                               FontSize="54"
+                               Text="Winner: "
+                               Margin="0,0,0,15"/>
+                        <Image x:Name="WinnerImage"
+                           Height="75"
+                           Source="Assets/X15.png"/>
+                    </StackPanel>
+                    <Button Content="PlayAgain"
+                        Background="Cyan"
+                        FontSize="34"
+                        Width="200"
+                        Margin="0,20,0,0"
+                        Padding="0,0,0,5"
+                        BorderBrush="Black"
+                        Click="Button_Click"/>
+
+
+                </StackPanel>
+            </Grid>
+
+
+        </Grid>
+    </Viewbox>
+
+</Window>

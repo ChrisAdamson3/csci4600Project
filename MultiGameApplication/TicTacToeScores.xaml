@@ -1,0 +1,14 @@
+﻿<Window x:Class="MultiGameApplication.TicTacToeScores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiGameApplication"
+        mc:Ignorable="d"
+        Title="TicTacToeScores" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Test" HorizontalAlignment="Left" Margin="23,65,0,0" TextWrapping="Wrap" Text="Amount Of Games Played: "  VerticalAlignment="Top" Height="69" Width="176" FontSize="24"/>
+        <TextBlock x:Name="AmountScore" Text="0" HorizontalAlignment="Left" Margin="248,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

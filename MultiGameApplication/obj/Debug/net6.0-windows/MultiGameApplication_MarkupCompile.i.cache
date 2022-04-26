@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\PersonalRepos\CSCI4600Project\MultiGameApplication\App.xaml
-11407045341
+51682037759
 
-5-2088539498
+141857334560
 1941645785384
-MainWindow.xaml;
+MainWindow.xaml;TicTacToeGame.xaml;TicTacToeHelp.xaml;TicTacToeScores.xaml;Window2.xaml;
 
-False
+True
 
